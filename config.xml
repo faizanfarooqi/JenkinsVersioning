@@ -11,7 +11,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders/>
+  <builders>
+    <hudson.tasks.BatchFile>
+      <command>echo this is the sample projects</command>
+    </hudson.tasks.BatchFile>
+  </builders>
   <publishers/>
   <buildWrappers/>
 </project>
